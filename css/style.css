@@ -1,12 +1,12 @@
 /*Body Styling */
 
 body {
-    background-color: #ffffff;
+    background-color: #333333;
     font-family: 'Outfit', sans-serif;
     font-size: 16px; /* Sets font size to 14px */
     font-weight: 300; /* Sets font weight to 300 */
     line-height: 1.6; /* Sets line-height to 1.6 * the font-size */
-    color: #4a4a4a; 
+    color: #ffffff; 
 }
 
 /*Header Styling */
@@ -18,16 +18,19 @@ h1,h2,h3 {
 h1 {
     font-size: 30px; 
     font-weight: 700;
+    color:#ffffff;
 }
 
 h2{
     font-size: 25px;
     font-weight: 700;
+    color:#ffffff;
 }
 
 h3{
     font-size: 20px;
     font-weight: 400;
+    color:#ffffff;
 }
 
 
@@ -42,11 +45,12 @@ img{
 
 a {
     font-size: 16px;
+    color:#ffffff;
 }
 
 a:hover,
 a:focus {
-    color:red; /*Makes the link red when hovered */
+    color: teal; /*Makes the link red when hovered */
     text-decoration: underline; /* Underlines the link when hovered */
 }
 
@@ -57,3 +61,34 @@ a:visited {
 a:active {
     color: green; /* Makes the link green when clicked */
 }
+
+
+
+.button {
+    display: inline-block; /* since the <a> tag is inline by default, we need to change this to inline-block, but more on this in the next exercise */
+    background-color: #ffffff;
+    color: #000000; /* needed to override the default link color */
+    font-weight: 400;
+    padding: 10px;
+    border-radius: 3px;
+    border-bottom: 2px solid black; /* width of the border, type, color */
+    transition: 0.2s opacity;
+  }
+
+  .button:hover {
+    opacity: 0.8; /* Reduces the opacity of the button to 80% */
+    text-decoration: none;
+  }
+
+
+  .button.contact {
+    background-color: transparent;
+    color: #ffffff;
+    text-transform: uppercase;
+    border: 2px solid #000000;
+  }
+
+  .button.contact:hover {
+    background-color: #ffffff;
+    color: #000000;
+  }
