@@ -1,4 +1,4 @@
-/*Body Styling */
+/* Body Styling */
 
 body {
     background-color: #333333;
@@ -6,10 +6,10 @@ body {
     font-size: 16px; /* Sets font size to 14px */
     font-weight: 300; /* Sets font weight to 300 */
     line-height: 1.6; /* Sets line-height to 1.6 * the font-size */
-    color: #ffffff; 
+    color: #ffffff;
 }
 
-/*Header Styling */
+/* Header Styling */
 
 h1,h2,h3 {
     line-height:1.4;
@@ -34,7 +34,7 @@ h3{
 }
 
 
-/*Image Styling */
+/* Image Styling */
 
 img{
     width: 100%;
@@ -48,30 +48,30 @@ a {
     color:#ffffff;
 }
 
-a:hover,
-a:focus {
-    color: teal; /*Makes the link red when hovered */
-    text-decoration: underline; /* Underlines the link when hovered */
-}
-
 a:visited {
     color: purple; /* Makes a link text turn purple for visited links */
+}
+
+a:hover,
+a:focus {
+    color: #1d6ee7; /* Makes the link red when hovered */
+    text-decoration: underline; /* Underlines the link when hovered */
 }
 
 a:active {
     color: green; /* Makes the link green when clicked */
 }
 
-
+/* Button Styling */
 
 .button {
     display: inline-block; /* since the <a> tag is inline by default, we need to change this to inline-block, but more on this in the next exercise */
-    background-color: #ffffff;
-    color: #000000; /* needed to override the default link color */
+    background-color: #000000;
+    color: #ffffff; /* needed to override the default link color */
     font-weight: 400;
     padding: 10px;
     border-radius: 3px;
-    border-bottom: 2px solid black; /* width of the border, type, color */
+    border-bottom: 2px solid #000000; /* width of the border, type, color */
     transition: 0.2s opacity;
   }
 
