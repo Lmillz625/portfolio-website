@@ -1,3 +1,5 @@
+/*Body Styling */
+
 body {
     background-color: #ffffff;
     font-family: 'Outfit', sans-serif;
@@ -6,6 +8,8 @@ body {
     line-height: 1.6; /* Sets line-height to 1.6 * the font-size */
     color: #4a4a4a; 
 }
+
+/*Header Styling */
 
 h1,h2,h3 {
     line-height:1.4;
@@ -26,15 +30,22 @@ h3{
     font-weight: 400;
 }
 
+
+/*Image Styling */
+
 img{
     width: 100%;
 }
+
+
+/* Link stylings */
 
 a {
     font-size: 16px;
 }
 
-a:hover {
+a:hover,
+a:focus {
     color:red; /*Makes the link red when hovered */
     text-decoration: underline; /* Underlines the link when hovered */
 }
@@ -45,8 +56,4 @@ a:visited {
 
 a:active {
     color: green; /* Makes the link green when clicked */
-}
-
-a:focus {
-    outline: 2px solid blue; /*adds a blue outline around the link */
 }
