@@ -29,3 +29,24 @@ h3{
 img{
     width: 100%;
 }
+
+a {
+    font-size: 16px;
+}
+
+a:hover {
+    color:red; /*Makes the link red when hovered */
+    text-decoration: underline; /* Underlines the link when hovered */
+}
+
+a:visited {
+    color: purple; /* Makes a link text turn purple for visited links */
+}
+
+a:active {
+    color: green; /* Makes the link green when clicked */
+}
+
+a:focus {
+    outline: 2px solid blue; /*adds a blue outline around the link */
+}
