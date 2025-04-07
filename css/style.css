@@ -1,19 +1,35 @@
-/* Colors for Portfolio;
-F1F1F1- Cream/White- Lettering?
-7F9BA6- Bluish Green- Background
-4E6969- Dark Green- Link Color
-*/
-
 /* Body Styling */
 
 body {
     background-color: #333333;
     font-family: 'Outfit', sans-serif;
-    font-size: 16px; /* Sets font size to 14px */
+    font-size: 16px; /* Sets font size to 16px */
     font-weight: 300; /* Sets font weight to 300 */
     line-height: 1.6; /* Sets line-height to 1.6 * the font-size */
     color: #ffffff;
 }
+
+/* Hero Styling */
+#hero {
+    text-align: left;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+/* Work Styling */
+#work {
+    text-align: left;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+/* Contact Styling */
+#contact {
+    text-align: left;
+    font-size: 16px;
+    font-weight: 300;
+}
+
 
 /* Header Styling */
 
