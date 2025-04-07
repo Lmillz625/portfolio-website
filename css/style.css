@@ -1,3 +1,9 @@
+/* Colors for Portfolio;
+F1F1F1- Cream/White- Lettering?
+7F9BA6- Bluish Green- Background
+4E6969- Dark Green- Link Color
+*/
+
 /* Body Styling */
 
 body {
@@ -54,10 +60,9 @@ a:visited {
 
 a:hover,
 a:focus {
-    color: #1d6ee7; /* Makes the link red when hovered */
+    color: #4285F4; /* Makes the link red when hovered */
     text-decoration: underline; /* Underlines the link when hovered */
 }
-
 a:active {
     color: green; /* Makes the link green when clicked */
 }
@@ -66,12 +71,12 @@ a:active {
 
 .button {
     display: inline-block; /* since the <a> tag is inline by default, we need to change this to inline-block, but more on this in the next exercise */
-    background-color: #000000;
-    color: #ffffff; /* needed to override the default link color */
+    background-color: #B2D4F7;
+    color: #000000; /* needed to override the default link color */
     font-weight: 400;
     padding: 10px;
     border-radius: 3px;
-    border-bottom: 2px solid #000000; /* width of the border, type, color */
+    border-bottom: 2px solid #B2D4F7; /* width of the border, type, color */
     transition: 0.2s opacity;
   }
 
@@ -85,10 +90,10 @@ a:active {
     background-color: transparent;
     color: #ffffff;
     text-transform: uppercase;
-    border: 2px solid #000000;
+    border: 2px solid #B2D4F7;
   }
 
   .button.contact:hover {
     background-color: #ffffff;
-    color: #000000;
+    color: #4285F4;
   }
