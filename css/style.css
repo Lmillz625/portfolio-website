@@ -33,6 +33,13 @@ body {
 
 /* Header Styling */
 
+header { 
+    background-color: #ff44c4;
+    padding: 10px;
+    margin: 10px;
+    border-bottom: 3px solid #4a4a4a;
+}
+
 h1,h2,h3 {
     line-height:1.4;
 }
