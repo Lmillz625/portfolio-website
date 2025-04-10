@@ -67,6 +67,7 @@ h3 {
     padding: 20px 0;
     display: inline-block;
     width: 100%;
+    text-align: left;
 }
 
 /* Work Styling */
@@ -180,10 +181,6 @@ a:active {
     color: #000000;
 }
 
-#work h2{
-    text-align:center;
-
-}
 
 .logo {
     max-width: 250px;
