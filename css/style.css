@@ -17,11 +17,16 @@ body {
     color: #ffffff;
 }
 
+
 /* Hero Styling */
 #hero {
+    background-color: #ffe4c4;
     text-align: left;
     font-size: 16px;
     font-weight: 300;
+    padding: 20px 0;
+    display: inline-block;
+    width: 100%;
 }
 
 /* Work Styling */
@@ -41,8 +46,11 @@ body {
 
 /* Header Styling */
 
-header {
-    
+header {background-color: #ffe4c4;
+    text-align: center;
+    padding: 10x 0;
+    box-shadow: 10px 0 10px black;
+    position: relative;
 }
 
 h1,
@@ -140,18 +148,43 @@ a:active {
 
 /* Layout Styling */
 
-.container{
+.container {
     padding: 0 15px;
 }
 
-.row{
+.row {
     margin: 25px 0; 
 }
 
-#work .row{
+#work .row {
     padding-bottom: 25px; border-bottom: 1px solid #4a4a4a
 }
 
 #hero h1 {
     text-align: center; 
+}
+
+.logo {
+    max-width: 250px;
+}
+
+nav{
+    display: inline-block;
+    width: 100%;
+}
+
+nav > ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav > ul > li {
+    display: inline-block;
+}
+
+nav > ul > li > a {
+    padding: 0 15px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #4a4a4a
 }
