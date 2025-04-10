@@ -19,7 +19,7 @@ body {
 
 /* Hero Styling */
 #hero {
-    background-color: #ffe4c4;
+    background-color: #ffffff;
     text-align: left;
     font-size: 16px;
     font-weight: 300;
@@ -45,11 +45,16 @@ body {
 
 /* Header Styling */
 
-header {background-color: #ffe4c4;
+header {background-color: #ffffff;
     text-align: center;
     padding: 10px 0;
     box-shadow: 10px 0 10px black;
     position: relative;
+}
+
+header a {
+    color: black;
+
 }
 
 h1,
@@ -81,6 +86,7 @@ h3 {
 
 img {
     width: 100%;
+    margin: auto; 
 }
 
 
@@ -147,6 +153,7 @@ a:active {
 
 /* Layout Styling */
 
+
 .container {
     padding: 0 15px;
 }
@@ -160,7 +167,13 @@ a:active {
 }
 
 #hero h1 {
-    text-align: center; 
+    text-align: center;
+    color:#000000;
+}
+
+#hero p {
+    text-align: center;
+    color:#000000;
 }
 
 .logo {
