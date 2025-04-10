@@ -17,7 +17,6 @@ body {
     color: #ffffff;
 }
 
-
 /* Hero Styling */
 #hero {
     background-color: #ffe4c4;
@@ -48,7 +47,7 @@ body {
 
 header {background-color: #ffe4c4;
     text-align: center;
-    padding: 10x 0;
+    padding: 10px 0;
     box-shadow: 10px 0 10px black;
     position: relative;
 }
