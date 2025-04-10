@@ -136,3 +136,22 @@ a:active {
     background-color: #ffffff;
     color: #4285F4;
 }
+
+
+/* Layout Styling */
+
+.container{
+    padding: 0 15px;
+}
+
+.row{
+    margin: 25px 0; 
+}
+
+#work .row{
+    padding-bottom: 25px; border-bottom: 1px solid #4a4a4a
+}
+
+#hero h1 {
+    text-align: center; 
+}
