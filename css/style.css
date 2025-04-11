@@ -40,19 +40,19 @@ h3 {
 }
 
 h1 {
-    font-size: 30px;
-    font-weight: 700;
-    color: #ffffff;
-}
-
-h2 {
     font-size: 25px;
     font-weight: 700;
     color: #ffffff;
 }
 
-h3 {
+h2 {
     font-size: 20px;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+h3 {
+    font-size: 16px;
     font-weight: 400;
     color: #ffffff;
 }
@@ -98,7 +98,7 @@ img {
 
 a {
     font-size: 16px;
-    color: #ffffff;
+    color: #4285F4;
 }
 
 a:visited {
@@ -144,9 +144,9 @@ a:active {
 
 .button.contact {
     background-color: transparent;
-    color: #ffffff;
+    color: black;
     text-transform: uppercase;
-    border: 2px solid #B2D4F7;
+    border: 2px solid #4285F4;
 }
 
 .button.contact:hover {
@@ -205,4 +205,14 @@ nav>ul>li>a {
     text-transform: uppercase;
     font-weight: 700;
     color: #4a4a4a
+}
+
+.footer{
+    padding: 0 15px;
+    background-color: #ffffff;
+    color:black;
+}
+
+.footer h2 {
+    color: black;
 }
