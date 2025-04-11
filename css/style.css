@@ -57,6 +57,12 @@ h3 {
     color: #ffffff;
 }
 
+/* P Stylng */
+
+p{
+    font-size: 14px;
+    font-weight:400;
+}
 
 /* Hero Styling */
 #hero {
