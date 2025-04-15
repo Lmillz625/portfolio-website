@@ -9,8 +9,8 @@
 body {
     background-color: #333333;
     font-family: 'Outfit', sans-serif;
-    font-size: 16px;
-    /* Sets font size to 16px */
+    font-size: 14px;
+    /* Sets font size to 14px */
     font-weight: 300;
     /* Sets font weight to 300 */
     line-height: 1.6;
@@ -58,18 +58,11 @@ h3 {
     color: #ffffff;
 }
 
-/* P Stylng */
-
-p{
-    font-size: 14px;
-    font-weight:400;
-}
-
 /* Hero Styling */
 #hero {
     background-color: #ffffff;
     text-align: left;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 300;
     padding: 20px 0;
     display: inline-block;
@@ -80,18 +73,17 @@ p{
 /* Work Styling */
 #work {
     text-align: left;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 300;
-    text-align:left;
 }
 
 /* Contact Styling */
 #contact {
     text-align: left;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 300;
-    text-align: left;
 }
+
 
 /* Image Styling */
 
@@ -188,7 +180,6 @@ a:active {
     text-align: center;
     color: #000000;
 }
-
 
 .logo {
     max-width: 250px;
