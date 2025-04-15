@@ -206,6 +206,7 @@ nav>ul>li>a {
     color: #4a4a4a
 }
 
+
 .footer{
     padding: 0 15px;
     background-color: #ffffff;
@@ -214,4 +215,15 @@ nav>ul>li>a {
 
 .footer h2 {
     color: black;
+    padding-top: 10px;
+}
+
+.social {
+    padding-top: 30px;
+}
+.social svg {
+    max-width: 30px;
+}
+.social a {
+    margin: 0 5px;
 }
