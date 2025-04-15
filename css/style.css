@@ -98,6 +98,11 @@ img {
     float:right;
 }
 
+svg {
+    width:100%;
+    max-width:100%;
+    height: auto;
+}
 
 /* Link stylings */
 
@@ -167,6 +172,7 @@ a:active {
 .container {
     padding: 0 15px;
 }
+
 
 .row {
     margin: 25px 0;
