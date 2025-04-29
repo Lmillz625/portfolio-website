@@ -1,195 +1,108 @@
+/*Universal Element */
+
 * {
     box-sizing: border-box;
+    padding: 10px;
 }
 
-
-
 /* Body Styling */
+
 body {
-    background-color: #547980;
+    background-color: #333333;
     font-family: 'Outfit', sans-serif;
-    font-size: 16px;
+    font-size: 14px;
+    /* Sets font size to 14px */
     font-weight: 300;
+    /* Sets font weight to 300 */
     line-height: 1.6;
-    color: whitesmoke;
+    /* Sets line-height to 1.6 * the font-size */
+    color: #ffffff;
 }
 
 /* Header Styling */
+
 header {
-    background-color: #363636;
-    padding: 10px;
-    margin: 10px;
-    border-bottom: 3px solid #ffffff;
+    background-color: #ffffff;
     text-align: center;
+    padding: 10px 0;
+    box-shadow: 10px 0 10px black;
     position: relative;
 }
 
+header a {
+    color: black;
 
-/* List Element Styling */
-
-nav {
-    display:inline-block;
-    width: 100%;
 }
 
-nav > ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-
-nav > ul> li {
-    display: inline-block;
-}
-
-nav > ul > li > a:visited {
-    padding: 0 15px;
-    text-transform: uppercase;
-    font-weight: 700;
-    color: #9de0ad ;
-}
-
-
-/* Headings Styling */
-h1, h2, h3, h4 {
+h1,
+h2,
+h3 {
     line-height: 1.4;
 }
 
 h1 {
-    font-size: 2.75em;
+    font-size: 25px;
     font-weight: 700;
-}
-
-h2 {
-    font-size: 2.25em;
-    font-weight: 700;
-}
-
-h3 {
-    font-size: 1.75em;
-    font-weight: 400;
-}
-
-h4 {
-    font-size: 1.35em;
-    font-weight: 400;
-}
-
-
-
-/* Image Styling */
-img {
-    width: 100%;
-}
-
-
-.social {
-    padding-top: 30px;
-}
-
-.social svg {
-    max-width:60px;
-}
-
-.social a {
-    margin: 0  5px;
-}
-
-
-/* Link Styling */
-a {
-    color: #9de0ad;
-    text-decoration: none;
-}
-
-a:hover, a:focus {
-    color:#FFD3B5;
-    text-decoration: underline;
-}
-
-a:visited {
-    color:blueviolet;
-}
-
-a:active {
-    color: #Eb175D
-}
-
-/* Layout Styling */
-.container {
-    max-width: 1200px;
-    margin-left:auto;
-    margin-right: auto;
-}
-
-
-/* Row Styling */
-.row {
-    margin: 25px 0;
-    border-bottom: 1px solid #FFFFFF
-}
-
-.row::after {
-    content: "";
-    clear:both;
-    display: table;
-}
-
-/* Hero Styling */
-#hero h1{
+    color: #ffffff;
     text-align: center;
 }
 
+h2 {
+    font-size: 20px;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+h3 {
+    font-size: 16px;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+/* Hero Styling */
 #hero {
-    background-color: #363636;
+    background-color: #ffffff;
+    text-align: left;
+    font-size: 14px;
+    font-weight: 300;
     padding: 20px 0;
     display: inline-block;
     width: 100%;
+    text-align: left;
 }
 
-#hero span {
-    display:block;
+/* Work Styling */
+#work {
+    text-align: left;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+#work h2 {
+    text-align: center;
+}
+
+/* Contact Styling */
+#contact {
+    text-align: left;
+    font-size: 14px;
+    font-weight: 300;
 }
 
 
+/* Image Styling */
 
-
-/* Logo Styling */
-.logo (
-    max-width: 250px;
-)
-
-
-/* Button Styling */
-.button {
-    display: inline-block;
-    background-color: #ff7f50;
-    color: #ffffff;
-    font-weight: 400; 
-    padding: 10px;
-    text-decoration:none;
-    border-radius: 3px;
-    border-bottom: 2px solid #994c30;
-    transition-duration:0.2s;
+img {
+    width: 100%;
+    margin: auto;
+    float:right;
 }
 
-.button:hover {
-    opacity: 0.8;
+svg {
+    width:100%;
+    max-width:100%;
+    height: auto;
 }
-
-.button.contact {
-    background-color: transparent;
-    color: #ff7f50;
-    text-transform: uppercase;
-    border: 2px solid #ff7f50;
-    color: #FFFFFF;
-}
-
-.button.contact:hover{
-    opacity: 0.8;
-    text-decoration:none;
-}
-
 
 @keyframes color-change {
     from {fill: #edc655;}
@@ -229,66 +142,214 @@ a:active {
   }
   
 
+/* Link stylings */
+
+a {
+    font-size: 16px;
+    color: #4285F4;
+}
+
+a:visited {
+    color: purple;
+    /* Makes a link text turn purple for visited links */
+}
+
+a:hover,
+a:focus {
+    color: #4285F4;
+    /* Makes the link red when hovered */
+    text-decoration: underline;
+    /* Underlines the link when hovered */
+}
+
+a:active {
+    color: green;
+    /* Makes the link green when clicked */
+}
+
+/* Button Styling */
+
+.button {
+    display: inline-block;
+    /* since the <a> tag is inline by default, we need to change this to inline-block, but more on this in the next exercise */
+    background-color: #B2D4F7;
+    color: #000000;
+    /* needed to override the default link color */
+    text-decoration: none;
+    font-weight: 400;
+    padding: 10px;
+    border-radius: 3px;
+    border-bottom: 2px solid #B2D4F7;
+    /* width of the border, type, color */
+    transition: 0.2s opacity ;
+}
+
+.button:hover {
+    opacity: 0.8;
+    /* Reduces the opacity of the button to 80% */
+    text-decoration: none;
+}
+
+
+.button.contact {
+    background-color: transparent;
+    color: black;
+    text-transform: uppercase;
+    border: 2px solid #4285F4;
+}
+
+.button.contact:hover {
+    background-color: #ffffff;
+    color: #4285F4;
+}
+
+
+/* Layout Styling */
+
+
+.container {
+    padding: 0 15px;
+}
+
+
+.row {
+    margin: 25px 0;
+}
+
+.row:after {
+    content: "";
+    clear:both;
+    display: table;
+}
+
+#work .row {
+    padding-bottom: 25px;
+    border-bottom: 1px solid #4a4a4a
+}
+
+#hero h1 {
+    text-align: center;
+    color: #000000;
+}
+
+#hero p {
+    text-align: center;
+    color: #000000;
+}
+
+.logo {
+    max-width: 250px;
+}
+
+nav {
+    display: inline-block;
+    width: 100%;
+}
+
+nav>ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 0;
+}
+
+nav>ul>li {
+    display: inline-block;
+    padding-top: 0;
+}
+
+nav>ul>li>a {
+    padding: 0 15px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #4a4a4a
+}
+
+
+.footer{
+    padding: 0 15px;
+    background-color: #ffffff;
+    color:black;
+    text-align:center;
+}
+
+.footer h2 {
+    color: black;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.social {
+    padding-top: 30px;
+}
+.social svg {
+    max-width: 60px;
+}
+.social a {
+    margin: 0 5px;
+}
+
 
 /* Medium Devices (640px or larger) */
 @media only screen and (min-width: 640px) {
-    header {
-       text-align: unset;
-       padding: 20px 0 13px;
-   }
-   
+     header {
+        text-align: unset;
+        padding: 20px 0 13px;
+    }
+    header div{
+        overflow: hidden;
+    }
 
-   nav{
-       width: auto;
-       float: right;
-       margin-top: 4px;
-   }
+    nav{
+        width: auto;
+        float: right;
+        margin-top: 4px;
+    }
 
-   .col-md-1 { width: 8.3333%; }
-   .col-md-2 { width: 16.6667%; }
-   .col-md-3 { width: 25%; }
-   .col-md-4 { width: 33.3333%; }
-   .col-md-5 { width: 41.6667%; }
-   .col-md-6 { width: 50%; }
-   .col-md-7 { width: 58.3333%; }
-   .col-md-8 { width: 66.6667%; }
-   .col-md-9 { width: 75%; }
-   .col-md-10 { width: 83.3333%; }
-   .col-md-11 { width: 91.6667%; }
-   .col-md-12 { width: 100%; }
+    .col-md-1 { width: 8.3333%; }
+    .col-md-2 { width: 16.6667%; }
+    .col-md-3 { width: 25%; }
+    .col-md-4 { width: 33.3333%; }
+    .col-md-5 { width: 41.6667%; }
+    .col-md-6 { width: 50%; }
+    .col-md-7 { width: 58.3333%; }
+    .col-md-8 { width: 66.6667%; }
+    .col-md-9 { width: 75%; }
+    .col-md-10 { width: 83.3333%; }
+    .col-md-11 { width: 91.6667%; }
+    .col-md-12 { width: 100%; }
 
-   [class*="col-"]{
-       float: left;
-   }
+    [class*="col-"]{
+        float: left;
+    }
 
 }
 
 
 /* Large Devices (1024px or larger) */
 @media only screen and (min-width: 1024px) {
-  
-   .col-lg-1 { width: 8.3333%; }
-   .col-lg-2 { width: 16.6667%; }
-   .col-lg-3 { width: 25%; }
-   .col-lg-4 { width: 33.3333%; }
-   .col-lg-5 { width: 41.6667%; }
-   .col-lg-6 { width: 50%; }
-   .col-lg-7 { width: 58.3333%; }
-   .col-lg-8 { width: 66.6667%; }
-   .col-lg-9 { width: 75%; }
-   .col-lg-10 { width: 83.3333%; }
-   .col-lg-11 { width: 91.6667%; }
-   .col-lg-12 { width: 100%; }
+   
+    .col-lg-1 { width: 8.3333%; }
+    .col-lg-2 { width: 16.6667%; }
+    .col-lg-3 { width: 25%; }
+    .col-lg-4 { width: 33.3333%; }
+    .col-lg-5 { width: 41.6667%; }
+    .col-lg-6 { width: 50%; }
+    .col-lg-7 { width: 58.3333%; }
+    .col-lg-8 { width: 66.6667%; }
+    .col-lg-9 { width: 75%; }
+    .col-lg-10 { width: 83.3333%; }
+    .col-lg-11 { width: 91.6667%; }
+    .col-lg-12 { width: 100%; }
 
-   .container {
-       max-width: 1200px;
-       margin-left:auto;
-       margin-right: auto;
-   }
+    .container {
+        max-width: 1200px;
+        margin-left:auto;
+        margin-right: auto;
+    }
 }
-  
+   
 
 /* X-large Devices (1440px or larger) */
 @media only screen and (min-width: 1440px) {
-   
+    
 }
