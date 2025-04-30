@@ -23,8 +23,7 @@ body {
 
 header {
     background-color: #ffffff;
-    text-align: center;
-    padding: 10px 0;
+    padding: 10px 0 4px;
     box-shadow: 10px 0 10px black;
     position: relative;
 }
@@ -238,18 +237,17 @@ a:active {
 }
 
 .logo {
-    max-width: 250px;
+    max-width: 150px;
 }
 
-nav {
-    display: inline-block;
-    width: 100%;
+.main {
+    padding-top: 56px;
 }
 
 nav>ul {
     list-style-type: none;
     padding: 0;
-    margin-top: 0;
+    margin: 0;
 }
 
 nav>ul>li {
@@ -263,6 +261,23 @@ nav>ul>li>a {
     font-weight: 700;
     color: #4a4a4a
 }
+
+.navtoggle li:not(:last-child) {
+    display: none;
+}
+
+.navtoggle, .navtoggle.responsive {
+    position: relative;
+  }
+
+  .navtoggle li .icon {
+    position: absolute;
+    right: 0;
+    top: 2px;
+    font-size: 20px;
+    padding-right: 0;
+  }
+
 
 
 .footer{
@@ -305,6 +320,24 @@ nav>ul>li>a {
         margin-top: 4px;
     }
 
+    nav > ul {
+        margin: 1em 0;
+      }
+
+    nav>ul>li {
+        display: inline-block;
+    }
+
+    .navtoggle li:not(:last-child) {
+        display: inline-block;
+    }
+
+    .navtoggle li:last-child {
+        display: none;
+    }
+
+
+
     .col-md-1 { width: 8.3333%; }
     .col-md-2 { width: 16.6667%; }
     .col-md-3 { width: 25%; }
@@ -345,6 +378,10 @@ nav>ul>li>a {
         max-width: 1200px;
         margin-left:auto;
         margin-right: auto;
+    }
+
+    .logo{
+        max-width: 250px;
     }
 }
    
