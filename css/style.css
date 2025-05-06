@@ -92,7 +92,7 @@ a:active {
     margin:10px;
     border-radius: 3px;
     border-bottom: 2px solid #e5ffc2;
-    transition-property: 0.2 opacity;
+    transition-property: opacity;
 }
 
 .button:hover {
