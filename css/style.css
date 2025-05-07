@@ -76,7 +76,7 @@ a:focus {
 }
 
 a:visited {
-    color: blueviolet;
+    color: rgb(226, 153, 43);
 }
 
 a:active {
