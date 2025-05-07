@@ -163,6 +163,7 @@ header {
 
 .logo {
     max-width: 150px;
+    position: relative; top: 20px;
 }
 
 
