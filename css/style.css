@@ -23,13 +23,16 @@ h4 {
 }
 
 h1 {
-    font-size: 2.75em;
+    font-size: 2.50em;
     font-weight: 700;
+    text-align: center;
 }
 
 h2 {
     font-size: 2.25em;
     font-weight: 700;
+    text-align: center;
+
 }
 
 h3 {
@@ -47,16 +50,20 @@ h4 {
 /* Image Styling */
 img {
     width: 65%;
+    padding: 10px;
 }
 
 #home {
     width: 75%;
-    height: 835px;
+    height:850px;
     padding-bottom: 5px;
 }
 
 #myself {
-    width: 60%;
+    width: 50%;
+    margin-left:auto;
+    margin-right:auto;
+    display:block;
 }
 
 .social {
@@ -140,7 +147,8 @@ header {
 
 .row {
     margin: 25px 0;
-    border-bottom: 1px solid black
+    border-bottom: 1px solid black;
+    padding-bottom: 5px;
 }
 
 .row::after {
