@@ -46,9 +46,18 @@ h4 {
 
 /* Image Styling */
 img {
-    width: 80%;
+    width: 65%;
 }
 
+#front{
+    width: 75%;
+    height: 835px;
+    padding-bottom: 5px;
+}
+
+#myself {
+    width: 60%;
+}
 
 .social {
     padding-top: 30px;
